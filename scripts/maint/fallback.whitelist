@@ -480,9 +480,6 @@
 149.56.45.200:9030 orport=9001 id=FE296180018833AF03A8EACD5894A614623D3F76 ipv6=[2607:5300:201:3000::17d3]:9002 # PiotrTorpotkinOne
 
 # Email sent directly to teor, verified using relay contact info
-81.2.209.10:443 orport=80 id=B6904ADD4C0D10CDA7179E051962350A69A63243 ipv6=[2001:15e8:201:1::d10a]:80
-
-# Email sent directly to teor, verified using relay contact info
 # IPv6 address unreliable
 195.154.164.243:80 orport=443 id=AC66FFA4AB35A59EBBF5BF4C70008BF24D8A7A5C #ipv6=[2001:bc8:399f:f000::1]:993
 138.201.26.2:80 orport=443 id=6D3A3ED5671E4E3F58D4951438B10AE552A5FA0F
@@ -740,10 +737,6 @@
 5.196.88.122:9030 orport=9001 id=0C2C599AFCB26F5CFC2C7592435924C1D63D9484 ipv6=[2001:41d0:a:fb7a::1]:9001
 
 # Email sent directly to teor, verified using relay contact info
-5.9.158.75:80 orport=443 id=1AF72E8906E6C49481A791A6F8F84F8DFEBBB2BA ipv6=[2a01:4f8:190:514a::2]:443
-5.9.158.75:9030 orport=9001 id=D11D11877769B9E617537B4B46BFB92B443DE33D ipv6=[2a01:4f8:190:514a::2]:9001
-
-# Email sent directly to teor, verified using relay contact info
 46.101.169.151:9030 orport=9001 id=D760C5B436E42F93D77EF2D969157EEA14F9B39C ipv6=[2a03:b0c0:3:d0::74f:a001]:9001
 
 # Email sent directly to teor, verified using relay contact info
@@ -860,7 +853,7 @@
 # Email sent directly to teor
 # https://lists.torproject.org/pipermail/tor-relays/2017-December/013961.html
 178.17.174.14:9030 orport=9001 id=B06F093A3D4DFAD3E923F4F28A74901BD4F74EB1 # TorExitMoldova
-178.17.170.156:9030 orport=9001 id=41C59606AFE1D1AA6EC6EF6719690B856F0B6587 # TorExitMoldova2
+178.17.170.23:9030 orport=9001 id=742C45F2D9004AADE0077E528A4418A6A81BC2BA # TorExitMoldova2
 
 # Email sent directly to teor
 163.172.221.44:59030 orport=59001 id=164604F5C86FC8CC9C0288BD9C02311958427597 # altego
@@ -1062,3 +1055,6 @@
 
 # https://lists.torproject.org/pipermail/tor-relays/2018-November/016610.html
 24.117.194.80:80 orport=443 id=B6C4C9A43658F686F8892CA5666717532F72979C
+
+# https://trac.torproject.org/projects/tor/ticket/28794#comment:7
+5.9.158.75:80 orport=443 id=63BF46A63F9C21FD315CD061B3EAA3EB05283A0A ipv6=[2a01:4f8:190:514a::2]:443
